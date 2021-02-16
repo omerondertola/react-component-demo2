@@ -23,7 +23,7 @@ function Heading() {
 
   return (
     <h1 className="heading" style={customStyle}>
-      {greeting}
+      {greeting + " " + date.toLocaleTimeString()}
     </h1>
   );
 }
